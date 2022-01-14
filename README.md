@@ -122,15 +122,16 @@ thats it, but not needed. the url from now on would be http://localhost:8009
 
 Useful Tools in plutus-apps
 
-Documentation for the various plutus libraries
+Haddock documentation for the various plutus libraries
 
 ```console
 cd plutus-apps/
+nix-shell
 build-and-serve-docs
 ```
 and then it will soft set port 8002
 
-http://0.0.0.0:8002/
+http://0.0.0.0:8002/haddock
 
 to make some space on your harddrive without deleting nix - if you do not use nix for a while:
 
