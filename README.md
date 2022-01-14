@@ -1,4 +1,4 @@
-# cardano-plutus-apps-install-macOS Monterey Version 12.1 (Intel)
+# cardano-plutus-apps-install-macOS Monterey Version 12.1 (Intel+M1)
 
 some useful infos:
 https://cardano.stackexchange.com/questions/6287/lessons-learned-setting-up-plutus-playground-feedback-welcome
@@ -120,7 +120,17 @@ and change the "https" flag from "true" to "false".
 
 thats it, but not needed. the url from now on would be http://localhost:8009
 
+Useful Tools in plutus-apps
 
+Documentation for the various plutus libraries
+
+```console
+cd plutus-apps/
+build-and-serve-docs
+```
+and then it will soft set port 8002
+
+http://0.0.0.0:8002/
 
 to make some space on your harddrive without deleting nix - if you do not use nix for a while:
 
