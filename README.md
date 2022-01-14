@@ -1,4 +1,4 @@
-# cardano-plutus-apps-install-m1
+# cardano-plutus-apps-install-macOS Monterey Version 12.1 (Intel)
 
 some useful infos:
 https://cardano.stackexchange.com/questions/6287/lessons-learned-setting-up-plutus-playground-feedback-welcome
